@@ -1,0 +1,122 @@
+{
+  "last_node_id": 6,
+  "last_link_id": 6,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "LoadImage",
+      "pos": [100, 160],
+      "size": {"0": 320, "1": 120},
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [1], "slot_index": 0},
+        {"name": "MASK",  "type": "MASK",  "links": [],  "slot_index": 1}
+      ],
+      "inputs": [],
+      "properties": {"Node name for S&R": "LoadImage"},
+      "widgets_values": ["reference_image_1.jpg", "image"],
+      "title": "Reference Image 1"
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [100, 340],
+      "size": {"0": 320, "1": 120},
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {"name": "IMAGE", "type": "IMAGE", "links": [2], "slot_index": 0},
+        {"name": "MASK",  "type": "MASK",  "links": [],  "slot_index": 1}
+      ],
+      "inputs": [],
+      "properties": {"Node name for S&R": "LoadImage"},
+      "widgets_values": ["reference_image_2.jpg", "image"],
+      "title": "Reference Image 2"
+    },
+    {
+      "id": 3,
+      "type": "Veo31ReferenceToVideo",
+      "pos": [500, 160],
+      "size": {"0": 480, "1": 320},
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {"name": "video_url",   "type": "STRING", "links": [3], "slot_index": 0},
+        {"name": "first_frame", "type": "IMAGE",  "links": [4], "slot_index": 1},
+        {"name": "request_id",  "type": "STRING", "links": [],  "slot_index": 2}
+      ],
+      "inputs": [
+        {"name": "image_1", "type": "IMAGE", "link": 1},
+        {"name": "image_2", "type": "IMAGE", "link": 2}
+      ],
+      "properties": {"Node name for S&R": "Veo31ReferenceToVideo"},
+      "widgets_values": [
+        "",
+        "A dynamic cinematic video inspired by the reference images, with smooth camera motion, professional lighting, and immersive sound design.",
+        "720p",
+        true,
+        "{}"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Veo31VideoSaver",
+      "pos": [1060, 160],
+      "size": {"0": 400, "1": 220},
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {"name": "frames",      "type": "IMAGE",  "links": [5], "slot_index": 0},
+        {"name": "filepath",    "type": "STRING", "links": [],  "slot_index": 1},
+        {"name": "frame_count", "type": "INT",    "links": [],  "slot_index": 2}
+      ],
+      "inputs": [
+        {"name": "video_url", "type": "STRING", "link": 3}
+      ],
+      "properties": {"Node name for S&R": "Veo31VideoSaver"},
+      "widgets_values": ["veo31_videos", "veo31_ref", 0, 0, 1]
+    },
+    {
+      "id": 5,
+      "type": "PreviewImage",
+      "pos": [1060, 440],
+      "size": {"0": 400, "1": 280},
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [],
+      "inputs": [{"name": "images", "type": "IMAGE", "link": 4}],
+      "properties": {"Node name for S&R": "PreviewImage"},
+      "title": "First Frame Preview"
+    },
+    {
+      "id": 6,
+      "type": "PreviewImage",
+      "pos": [1520, 160],
+      "size": {"0": 400, "1": 280},
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [],
+      "inputs": [{"name": "images", "type": "IMAGE", "link": 5}],
+      "properties": {"Node name for S&R": "PreviewImage"},
+      "title": "Video Frames"
+    }
+  ],
+  "links": [
+    [1, 1, 0, 3, 0, "IMAGE"],
+    [2, 2, 0, 3, 1, "IMAGE"],
+    [3, 3, 0, 4, 0, "STRING"],
+    [4, 3, 1, 5, 0, "IMAGE"],
+    [5, 4, 0, 6, 0, "IMAGE"]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {"ds": {"scale": 1, "offset": [0, 0]}},
+  "version": 0.4
+}
