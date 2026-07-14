@@ -1,0 +1,30 @@
+# Outputs and generated files
+out/
+_seg/
+*.mp4
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.avif
+
+# Python environment/caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Secrets/keys
+.env
+.secrets
+secrets.py

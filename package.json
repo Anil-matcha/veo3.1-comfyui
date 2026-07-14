@@ -1,0 +1,28 @@
+{
+  "name": "muapi-director",
+  "version": "1.0.0",
+  "description": "Muapi Director — an open-source Agent Skill that turns one topic into a finished Vox-style paper-collage explainer/ad video: script, collage keyframes, motion, voice-over, music and captions, automated end to end on the Muapi API + local ffmpeg. Works with Claude Code, Codex, and any SKILL.md agent.",
+  "keywords": [
+    "vox",
+    "muapi-director",
+    "ai-video",
+    "video-generation",
+    "text-to-video",
+    "paper-collage",
+    "collage-video",
+    "motion-graphics",
+    "explainer-video",
+    "ai-ads",
+    "agent-skill",
+    "claude-skill",
+    "claude-code",
+    "codex",
+    "ffmpeg",
+    "tts",
+    "muapi",
+    "muapiapp",
+    "generative-ai"
+  ],
+  "homepage": "https://github.com/muapiapp/muapi-director",
+  "license": "MIT"
+}

@@ -1,0 +1,76 @@
+{
+  "project": "coffee-history-15s",
+  "topic": "the origins of coffee (15s teaser)",
+  "language": "en",
+  "aspect": "9:16",
+  "style": "collage",
+  "theme": "american-retro",
+  "arc": "hook_payoff",
+  "video_model": "runway-image-to-video",
+  "image_model": "flux-dev",
+  "voice": {
+    "voice_id": "English_expressive_narrator",
+    "language": "en",
+    "speed": 1.0,
+    "emotion": "happy"
+  },
+  "music": "upbeat retro jazz beat, acoustic double bass, light brush drums, instrumental",
+  "watermark": "Made with Muapi Director",
+  "beats": [
+    {
+      "id": 1,
+      "title_en": "COFFEE",
+      "bg": "warm amber clay",
+      "feel": "historical, warm, inviting",
+      "hook": "secret_reveal",
+      "narration": "Before it conquered the world, coffee was a secret energy.",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 5,
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "push_in",
+          "scene": "a vintage map of Ethiopia, a cut-out coffee tree with glowing red coffee cherries, hands reaching from the edges",
+          "element_motion": "the coffee cherries glow, hands gently bob, map details fade in with halftone dots"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_en": "THE SECRET",
+      "bg": "bold terracotta red",
+      "feel": "mysterious, energetic",
+      "narration": "Discovered by dancing goats in the high mountains.",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 5,
+          "title": true,
+          "shot_size": "MEDIUM",
+          "camera_move": "parallax",
+          "scene": "a playful cut-out goat leaping high, a shepherd Kaldi gesturing in surprise, paper-collage mountains behind them",
+          "element_motion": "the goat bobs up and down as if dancing, Kaldi's arms move slightly, mountain layers drift creating depth"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_en": "GLOBAL WAVE",
+      "bg": "deep coffee brown",
+      "feel": "grand, historic",
+      "narration": "Now, it drives the modern world's energy.",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 5,
+          "title": true,
+          "shot_size": "CLOSE",
+          "camera_move": "static",
+          "scene": "a close-up of a steaming vintage coffee cup, paper steam rising, radiating sunburst lines in the background",
+          "element_motion": "paper steam swirls and floats upwards, background sunburst lines pulse gently, cup is static"
+        }
+      ]
+    }
+  ]
+}
