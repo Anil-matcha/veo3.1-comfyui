@@ -1,10 +1,10 @@
 # 🎬 Vox AI Motion Graphics Generator
 
-**Turn any topic into a finished Vox-style paper-collage explainer or advertisement video — script, collage keyframes, animation, voice-over, music, and captions, all automated on the Muapi API.**
+**Turn any topic into a finished Vox-style paper-collage explainer or advertisement video — script, collage keyframes, animation, voice-over, music, and captions, all automated.**
 
 > Inspired by the Vox-style paper-collage motion-graphics workflow — one topic in, a styled `final.mp4` out.
 
-An **agent skill** designed to run end-to-end on the [Muapi](https://muapi.ai) platform + local `ffmpeg`. Simply provide a one-line topic, and the tool produces a styled `final.mp4`.
+An **agent skill** designed to run end-to-end with a single hosted API key + local `ffmpeg`. Simply provide a one-line topic, and the tool produces a styled `final.mp4`.
 
 ---
 
@@ -38,7 +38,7 @@ Everything else is fully automated.
 
 ---
 
-## Core Technologies (Muapi API)
+## Core Technologies
 
 | Pipeline Job | Model Endpoint |
 | :--- | :--- |
@@ -59,7 +59,7 @@ This is an **agent skill** — it works with any coding agent (like Claude Code,
 
 2. Configure environment keys:
    ```bash
-   export MUAPI_API_KEY="your-muapi-key"
+   export MUAPI_API_KEY="your-api-key"   # image/video/voice/music models — key from muapi.ai
    export OPENAI_API_KEY="your-openai-key"
    ```
 
