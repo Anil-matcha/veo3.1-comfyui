@@ -1,4 +1,4 @@
-# Muapi Director — Agent Guide
+# Vox AI Motion Graphics Generator — Agent Guide
 
 This repository is an **agent skill**: a self-contained workflow that turns one
 topic into a finished Vox-style paper-collage video (script → collage keyframes →

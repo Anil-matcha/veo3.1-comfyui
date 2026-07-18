@@ -1,6 +1,8 @@
-# 🎬 Muapi Director
+# 🎬 Vox AI Motion Graphics Generator
 
 **Turn any topic into a finished Vox-style paper-collage explainer or advertisement video — script, collage keyframes, animation, voice-over, music, and captions, all automated on the Muapi API.**
+
+> Inspired by the Vox-style paper-collage motion-graphics workflow — one topic in, a styled `final.mp4` out.
 
 An **agent skill** designed to run end-to-end on the [Muapi](https://muapi.ai) platform + local `ffmpeg`. Simply provide a one-line topic, and the tool produces a styled `final.mp4`.
 
