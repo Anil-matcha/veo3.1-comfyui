@@ -4,6 +4,8 @@ ComfyUI custom nodes for generating videos with Google's **Veo 3.1** model via t
 
 ## Related Projects
 
+- [Veo 3 on MuAPI](https://muapi.ai/veo3) — Model landing page for Veo generation.
+- [Veo 3 text-to-video playground](https://muapi.ai/playground/veo3-text-to-video) — Try the model directly in the browser.
 - [veo4-video-generator](https://github.com/SamurAIGPT/veo4-video-generator) — Ready-made Next.js SaaS for Veo — no ComfyUI needed
 - [Veo-4-API](https://github.com/Anil-matcha/Veo-4-API) — Python wrapper for Veo 4 API — use the latest Veo model in scripts
 - [muapi-comfyui](https://github.com/SamurAIGPT/muapi-comfyui) — ComfyUI nodes for 100+ MuAPI models including Veo
