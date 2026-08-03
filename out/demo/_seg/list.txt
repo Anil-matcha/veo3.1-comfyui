@@ -1,1 +1,0 @@
-file 'C:\Users\JAYAP\joint-folder\muapi-director\out\demo\_seg\seg_00.mp4'

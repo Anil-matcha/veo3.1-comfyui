@@ -1,3 +1,0 @@
-file 'C:\Users\JAYAP\joint-folder\muapi-director\out\muapi-director-tutorial\_seg\seg_00.mp4'
-file 'C:\Users\JAYAP\joint-folder\muapi-director\out\muapi-director-tutorial\_seg\seg_01.mp4'
-file 'C:\Users\JAYAP\joint-folder\muapi-director\out\muapi-director-tutorial\_seg\seg_02.mp4'
