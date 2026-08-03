@@ -1,0 +1,107 @@
+{
+  "project": "muapi-director-tutorial",
+  "topic": "Automate Video Production with Muapi Director",
+  "language": "en",
+  "aspect": "9:16",
+  "style": "collage",
+  "theme": "swiss-modern",
+  "arc": "how_it_works",
+  "video_model": "runway-image-to-video",
+  "image_model": "flux-dev",
+  "voice": {
+    "voice_id": "English_expressive_narrator",
+    "language": "en",
+    "speed": 1.1,
+    "emotion": "happy"
+  },
+  "music": "modern high-tech synth beat, steady electronic rhythm, ambient background, instrumental",
+  "watermark": "Made with Muapi Director",
+  "beats": [
+    {
+      "id": 1,
+      "title_en": "VIDEO AUTO",
+      "bg": "bold pure red cardboard",
+      "feel": "clean, modern, striking",
+      "hook": "direct_question",
+      "narration": "Tired of editing videos manually? Automate them completely with Muapi Director.",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 5,
+          "title": true,
+          "shot_size": "WIDE",
+          "camera_move": "push_in",
+          "scene": "a retro typewriter with paper feed showing the words 'VIDEO AUTO', mixed media paper collage layout, bold colors",
+          "element_motion": "the paper rises slightly from the typewriter, background halftone dots grow in size",
+          "aspect": "9:16",
+          "keyframe_prompt": "Clean modern flat 2D illustrated collage in the Vox explainer motion-graphic style: bold flat-color vector-illustration cut-outs, simple confident shapes, a limited contemporary palette, crisp infographic editorial layout. Palette: two-color + one red accent, lots of white. Clearly layered hand-cut paper cut-outs with visible torn and scissor-cut edges, tape corners and soft real paper drop shadows, on a bold flat bold pure red cardboard paper background. Halftone print dots, newspaper-clipping scraps, paper-stencil shapes, aged paper texture, slight print misregistration, scattered geometric paper accents. Figures are printed/illustrated cut-outs, NOT CGI, NOT a 3D render — keep print grain and paper imperfections. High-contrast, tactile. Print finish: clean flat, very subtle grain. SCENE (as layered paper cut-outs): a retro typewriter with paper feed showing the words 'VIDEO AUTO', mixed media paper collage layout, bold colors. Include a torn-paper banner with a big bold cut-out English headline 'VIDEO AUTO' in Helvetica/Akzidenz grotesque, tight caps and a small paper sticker accent. Keep the headline crisp and legible.",
+          "keyframe_url": "https://cdn.muapi.ai/outputs/generated/2ea177d9be124fd3936cd698f5b7fa4c.png",
+          "keyframe_path": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\keyframes\\kf_1a.jpg",
+          "clip_prompt": "Animate this still into a mixed-media paper-collage MOTION GRAPHIC, printed cut-outs, not photoreal.\nCAMERA (one move only): one very slow smooth push-in (uniform scale-up, Ken-Burns).\nELEMENT MOTION (rich — this is the energy, lively, energetic amplitude with clear, bold movement): the paper rises slightly from the typewriter, background halftone dots grow in size. Elements move as paper cut-outs (slide, flap, hinge, pop, scatter, fly).\nAESTHETIC: keep the torn-paper, tape, halftone, newsprint and paper-stencil textures and the bold flat background.\nFEEL: clean, modern, striking.\nCOLOR: bold pure red cardboard.\nCONSTRAINTS: Keep the HEADLINE TEXT sharp, legible and stable — do not warp or wobble the lettering. Keep the layout stable. Stay flat 2D — no 3D rotation, no perspective change, camera parallel to the poster. ONE continuous move that does not loop, retract or reset. Rigid paper — no morph/melt. Animate the motion only; don't re-render the picture.",
+          "clip_url": "https://cdn.muapi.ai/outputs/generated/49cae7112c96410e99c29a8ddaa4adc0.mp4",
+          "clip_path": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\clips\\clip_1a.mp4"
+        }
+      ],
+      "narration_audio": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\audio\\narr_1.mp3",
+      "narration_dur": 4.69
+    },
+    {
+      "id": 2,
+      "title_en": "THE PIPELINE",
+      "bg": "jet black thick paper",
+      "feel": "structured, technical",
+      "hook": "process_reveal",
+      "narration": "It automatically generates scripts, keyframe posters, talking avatars, and soundtracks.",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 5,
+          "title": true,
+          "shot_size": "MEDIUM",
+          "camera_move": "parallax",
+          "scene": "film reels and golden gears overlapping with music note cutouts, high contrast swiss modern design",
+          "element_motion": "gears rotate slowly in opposite directions, music notes bob up and down, film reel sweeps horizontally",
+          "aspect": "9:16",
+          "keyframe_prompt": "Clean modern flat 2D illustrated collage in the Vox explainer motion-graphic style: bold flat-color vector-illustration cut-outs, simple confident shapes, a limited contemporary palette, crisp infographic editorial layout. Palette: two-color + one red accent, lots of white. Clearly layered hand-cut paper cut-outs with visible torn and scissor-cut edges, tape corners and soft real paper drop shadows, on a bold flat jet black thick paper paper background. Halftone print dots, newspaper-clipping scraps, paper-stencil shapes, aged paper texture, slight print misregistration, scattered geometric paper accents. Figures are printed/illustrated cut-outs, NOT CGI, NOT a 3D render — keep print grain and paper imperfections. High-contrast, tactile. Print finish: clean flat, very subtle grain. SCENE (as layered paper cut-outs): film reels and golden gears overlapping with music note cutouts, high contrast swiss modern design. Include a torn-paper banner with a big bold cut-out English headline 'THE PIPELINE' in Helvetica/Akzidenz grotesque, tight caps and a small paper sticker accent. Keep the headline crisp and legible.",
+          "keyframe_url": "https://cdn.muapi.ai/outputs/generated/24ab217dbb49432f84d33efba463bf48.png",
+          "keyframe_path": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\keyframes\\kf_2a.jpg",
+          "clip_prompt": "Animate this still into a mixed-media paper-collage MOTION GRAPHIC, printed cut-outs, not photoreal.\nCAMERA (one move only): a gentle multi-layer parallax drift (paper layers moving at slightly different speeds), the camera otherwise steady.\nELEMENT MOTION (rich — this is the energy, lively, energetic amplitude with clear, bold movement): gears rotate slowly in opposite directions, music notes bob up and down, film reel sweeps horizontally. Elements move as paper cut-outs (slide, flap, hinge, pop, scatter, fly).\nAESTHETIC: keep the torn-paper, tape, halftone, newsprint and paper-stencil textures and the bold flat background.\nFEEL: structured, technical.\nCOLOR: jet black thick paper.\nCONSTRAINTS: Keep the HEADLINE TEXT sharp, legible and stable — do not warp or wobble the lettering. Keep the layout stable. Stay flat 2D — no 3D rotation, no perspective change, camera parallel to the poster. ONE continuous move that does not loop, retract or reset. Rigid paper — no morph/melt. Animate the motion only; don't re-render the picture.",
+          "clip_url": "https://cdn.muapi.ai/outputs/generated/cfed78c1da20452eacfbe34a8c47bdb3.mp4",
+          "clip_path": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\clips\\clip_2a.mp4"
+        }
+      ],
+      "narration_audio": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\audio\\narr_2.mp3",
+      "narration_dur": 5.19
+    },
+    {
+      "id": 3,
+      "title_en": "TRY DIRECTOR",
+      "bg": "clean white cardboard",
+      "feel": "motivational, final",
+      "hook": "cta",
+      "narration": "Turn your script into a finished film today. Start building on Muapi.",
+      "shots": [
+        {
+          "id": "a",
+          "dur": 5,
+          "title": true,
+          "shot_size": "CLOSE",
+          "camera_move": "static",
+          "scene": "a stylized human hand pointing towards a glowing computer display showing a play button, paper drop shadows",
+          "element_motion": "the computer screen glows and pulses, hand remains steady, background elements drift slowly",
+          "aspect": "9:16",
+          "keyframe_prompt": "Clean modern flat 2D illustrated collage in the Vox explainer motion-graphic style: bold flat-color vector-illustration cut-outs, simple confident shapes, a limited contemporary palette, crisp infographic editorial layout. Palette: two-color + one red accent, lots of white. Clearly layered hand-cut paper cut-outs with visible torn and scissor-cut edges, tape corners and soft real paper drop shadows, on a bold flat clean white cardboard paper background. Halftone print dots, newspaper-clipping scraps, paper-stencil shapes, aged paper texture, slight print misregistration, scattered geometric paper accents. Figures are printed/illustrated cut-outs, NOT CGI, NOT a 3D render — keep print grain and paper imperfections. High-contrast, tactile. Print finish: clean flat, very subtle grain. SCENE (as layered paper cut-outs): a stylized human hand pointing towards a glowing computer display showing a play button, paper drop shadows. Include a torn-paper banner with a big bold cut-out English headline 'TRY DIRECTOR' in Helvetica/Akzidenz grotesque, tight caps and a small paper sticker accent. Keep the headline crisp and legible.",
+          "keyframe_url": "https://cdn.muapi.ai/outputs/generated/07878ff076cf47198b987b8b0e4bfb57.png",
+          "keyframe_path": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\keyframes\\kf_3a.jpg",
+          "clip_prompt": "Animate this still into a mixed-media paper-collage MOTION GRAPHIC, printed cut-outs, not photoreal.\nCAMERA (one move only): a locked-off static camera (no camera move).\nELEMENT MOTION (rich — this is the energy, lively, energetic amplitude with clear, bold movement): the computer screen glows and pulses, hand remains steady, background elements drift slowly. Elements move as paper cut-outs (slide, flap, hinge, pop, scatter, fly).\nAESTHETIC: keep the torn-paper, tape, halftone, newsprint and paper-stencil textures and the bold flat background.\nFEEL: motivational, final.\nCOLOR: clean white cardboard.\nCONSTRAINTS: Keep the HEADLINE TEXT sharp, legible and stable — do not warp or wobble the lettering. Keep the layout stable. Stay flat 2D — no 3D rotation, no perspective change, camera parallel to the poster. ONE continuous move that does not loop, retract or reset. Rigid paper — no morph/melt. Animate the motion only; don't re-render the picture.",
+          "clip_url": "https://cdn.muapi.ai/outputs/generated/ab52a9c9c3c740109ae29ab0906dac71.mp4",
+          "clip_path": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\clips\\clip_3a.mp4"
+        }
+      ],
+      "narration_audio": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\audio\\narr_3.mp3",
+      "narration_dur": 3.88
+    }
+  ],
+  "bgm_path": "C:\\Users\\JAYAP\\joint-folder\\muapi-director\\out\\muapi-director-tutorial\\audio\\bgm.mp3",
+  "bgm_dur": 159.08
+}

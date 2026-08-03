@@ -1,0 +1,27 @@
+# secrets — never commit
+.env
+*.env
+*.key
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Internal scratch files
+scratch/
+PROGRESS.md
